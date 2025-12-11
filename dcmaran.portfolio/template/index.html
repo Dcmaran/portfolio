@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Diogo - Software Engineer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="profile-wrapper">
+                <img src="../assets/picture.png" alt="Diogo Profile Picture" class="profile-img">
+            </div>
+            <div class="hero-content">
+                <h2 class="role">Software Engineer</h2>
+                <h1 class="name">Diogo Maranhão</h1>
+                <p class="summary">
+                    .NET Specialist (C#, WPF, WinUI) building modern desktop experiences. 
+                    Focused on software architecture, performance optimization, and clean code within the Microsoft ecosystem.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/dcmr/" target="_blank" class="btn">LinkedIn</a>
+                    <a href="https://github.com/Dcmaran" target="_blank" class="btn btn-outline">GitHub</a>
+                    <a href="https://medium.com/@diogocmr2002" target="_blank" class="btn btn-outline">Medium</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Computer Science graduate with robust hands-on experience in full-stack .NET development. 
+                    I specialize in Blazor, ASP.NET, and modern Windows desktop frameworks (WPF, UWP, WinUI). 
+                    My background includes designing secure APIs, automating CI/CD pipelines, and contributing to global projects within hybrid teams. 
+                    I am passionate about building scalable, high-performance applications and applying Clean Architecture principles to solve complex engineering challenges in international environments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-light">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jul 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer Trainee | Windows (C#/C++)</h3>
+                        <span class="company">SiDi</span>
+                        <p>
+                            Developing full-stack desktop applications across WinUI, UWP, and WPF frameworks for a major global client.
+                            Spearheading CI/CD pipeline implementation using QuickBuild and GitHub Actions, including Git hooks for code standardization.
+                            Conducting rigorous unit testing with xUnit/Moq and collaborating with cross-functional teams to deliver scalable, high-performance solutions using Agile methodologies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2024 - Jul 2025</div>
+                    <div class="timeline-content">
+                        <h3>Software Developer Intern | Windows (C#/C++)</h3>
+                        <span class="company">SiDi</span>
+                        <p>
+                            Contributed to the maintenance and evolution of legacy desktop systems. 
+                            Focused on bug fixing, refactoring code for better readability, and implementing initial unit tests, ensuring system stability during critical updates.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2024 - Jul 2024</div> 
+                    <div class="timeline-content">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="company">CFI - Consultoria Financeira Inteligente</span>
+                        <p>
+                            Led the migration of legacy ASP.NET MVC systems to Blazor Server and developed APIs to integrate internal ecosystems.
+                            Built web applications designed for hybrid integration with mobile apps, effectively reducing the application footprint.
+                            Implemented a secure payment gateway using PagBank API and SDKs, ensuring efficient transaction processing.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="tag">Capstone & .NET Arch</span>
+                        <h3>Blazor API Auth & Persistence</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Proof of Concept (Capstone Project) resolving Blazor Server's limitations regarding POST requests for authentication. 
+                            Implements a <code>CustomAuthStateProvider</code> and AES encryption to enable secure login flows within hybrid WebViews.
+                        </p>
+                        <div class="tech-stack">
+                            <span>C#</span> <span>.NET 8</span> <span>Blazor Server</span> <span>AES</span>
+                        </div>
+                        <a href="https://github.com/Dcmaran/blazor-api-auth-persistence-demo" target="_blank" class="project-link">
+                            View Code <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="tag">Full Stack Web</span>
+                        <h3>ValueVerifier</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Real-time currency conversion web application. 
+                            Leverages Django for backend orchestration and consumes ExchangeRatesAPI, ensuring automatic rate updates with a fully responsive UI.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span> <span>Django</span> <span>JavaScript</span> <span>REST API</span>
+                        </div>
+                        <a href="https://github.com/Dcmaran/ValueVerifier" target="_blank" class="project-link">
+                            View Code <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="tag">Desktop Tooling</span>
+                        <h3>Invalid Bytes Detector GUI</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            GUI desktop tool designed to accelerate system debugging. 
+                            Automates file scanning to detect invalid or corrupted bytes, distributed via a standalone executable for easy deployment.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span> <span>Tkinter</span> <span>PyInstaller</span> <span>Automation</span>
+                        </div>
+                        <a href="https://github.com/Dcmaran/detect-invalid-bytes-gui" target="_blank" class="project-link">
+                            View Code <span class="arrow">→</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section-light">
+        <div class="container">
+            <h2 class="section-title">Certifications & Courses</h2>
+            
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">💻</div>
+                    <div class="cert-content">
+                        <h3>Unit Testing for C# Developers</h3>
+                        <span class="issuer">Udemy</span>
+                        <p class="cert-date">Issued: Sep 2024</p>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div> 
+                    <div class="cert-content">
+                        <h3>C# Advanced Topics: Technical Interviews</h3>
+                        <span class="issuer">Udemy</span>
+                        <p class="cert-date">Issued: Jul 2024</p>
+                    </div>
+                </div>
+                
+                <div class="cert-card">
+                    <div class="cert-icon">🌍</div>
+                    <div class="cert-content">
+                        <h3>C# Intermediate: Classes, Interfaces and OOP</h3>
+                        <span class="issuer">Udemy</span>
+                        <p class="cert-date">Issued: Jun 2025</p>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="linkedin" class="section-light">
+        <div class="container">
+            <h2 class="section-title">LinkedIn Highlights</h2>
+            <p class="section-subtitle">A selection of my contributions and articles shared with the community.</p>
+            
+            <div class="carousel-wrapper">
+                <button class="carousel-btn btn-prev" id="prevBtn">&#10094;</button>
+                
+                <div class="carousel-container">
+                    <ul class="carousel-track">
+                        
+                        <li class="carousel-slide">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7340240296854654976" title="LinkedIn Post 1"></iframe>
+                        </li>
+
+                        <li class="carousel-slide">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7217645930647285760" title="LinkedIn Post 2"></iframe>
+                        </li>
+
+                        <li class="carousel-slide">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7266970801273249792" title="LinkedIn Post 3"></iframe>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <button class="carousel-btn btn-next" id="nextBtn">&#10095;</button>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="https://www.linkedin.com/in/dcmr/" target="_blank" class="btn btn-outline">View Full Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Diogo. Crafted with passion, C#, and code.</p>
+    </footer>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('#nextBtn');
+        const prevButton = document.querySelector('#prevBtn');
+
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        nextButton.addEventListener('click', () => {
+            if (currentIndex === slides.length - 1) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
+            updateCarousel();
+        });
+
+        prevButton.addEventListener('click', () => {
+            if (currentIndex === 0) {
+                currentIndex = slides.length - 1;
+            } else {
+                currentIndex--;
+            }
+            updateCarousel();
+        });
+    </script>
+
+</body>
+</html>
